@@ -33,8 +33,6 @@ Currently, the following resources are provisioned automatically via Terraform:
 
 Some resources were configured manually but will be incorporated into Terraform in the future:
 
-- **S3 Bucket** (`terraform-state-darlan`) → used as a remote backend to store the `terraform.tfstate`.
-- **Key Pair** (`chave-site`) → required for SSH access to the instance.
 - **IAM Role/Instance Profile** (`ECR-EC2-Role`) → allows EC2 to pull images from ECR.
 - **VPC** (used by the Security Group).
 

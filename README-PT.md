@@ -33,8 +33,6 @@ Atualmente, os seguintes recursos são provisionados automaticamente via Terrafo
 
 Alguns recursos foram configurados manualmente, mas serão futuramente incorporados no Terraform:
 
-- **S3 Bucket** (`terraform-state-darlan`) → usado como backend remoto para armazenar o `terraform.tfstate`.
-- **Key Pair** (`chave-site`) → necessário para acesso SSH à instância.
 - **IAM Role/Instance Profile** (`ECR-EC2-Role`) → permite que a EC2 faça pull de imagens do ECR.
 - **VPC** (utilizada no Security Group).
 
